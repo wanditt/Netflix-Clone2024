@@ -1,17 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
 
+import "./App.css";
+import Home from "./pages/Home/Home";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <div className='App'>
-      <h1>Hello Netflix</h1>
-    
+    <div className="App">
+      <Home />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

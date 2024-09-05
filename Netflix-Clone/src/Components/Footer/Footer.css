@@ -1,0 +1,75 @@
+.footer_outer_container {
+  background-color: #111;
+  color: gray;
+  display: flex;
+  flex-direction: column; /* Stacks content vertically */
+  align-items: center;
+  padding: 20px 0; /* Adds padding for top and bottom */
+}
+
+.footer_inner_container {
+  width: 80%; /* Responsive width */
+  display: flex;
+  flex-direction: column; /* Stacks icons above the rows */
+  align-items: center; /* Centers the inner content */
+  margin-bottom: 20px; /* Adds space below the content */
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: center; /* Centers the icons */
+  gap: 20px; /* Adds space between icons */
+  align-items: center;
+  margin-bottom: 20px; /* Adds spacing below the icons */
+  color: #fff; /* Sets the icon color */
+}
+
+.footer_rows {
+  display: flex;
+  flex-wrap: wrap; /* Allows rows to wrap on smaller screens */
+  justify-content: space-between; /* Distributes space between rows */
+  width: 100%; /* Makes the rows full width */
+}
+
+.footer_data {
+  flex: 1 1 20%; /* Allows flexibility and space distribution */
+  min-width: 150px; /* Ensures a minimum width for small screens */
+  margin: 10px 0; /* Adds vertical spacing */
+}
+
+.footer_data ul {
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.footer_data ul li {
+  cursor: pointer;
+  margin-bottom: 5px; /* Adds space between list items */
+  color: #ccc; /* Soft gray for list items */
+}
+
+.footer_data ul li:hover {
+  color: #fff; /* Changes color on hover */
+}
+
+.copy_code {
+  display: flex;
+  justify-content: space-between; /* Distributes elements evenly */
+  align-items: center; /* Centers items vertically */
+  width: 80%; /* Responsive width */
+  margin-top: 10px;
+  color: #888; /* Softer gray for footer text */
+}
+
+.service_code {
+  display: inline-block; /* Aligns inline with other items */
+  border: 1px solid #fff; /* Adds a border */
+  padding: 5px 10px; /* Adds padding inside the element */
+  cursor: pointer;
+}
+
+.copy-write {
+  font-size: 12px;
+  text-align: right; /* Aligns text to the right */
+}

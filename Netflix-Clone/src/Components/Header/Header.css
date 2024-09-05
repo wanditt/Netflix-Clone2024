@@ -1,0 +1,94 @@
+/* .header_outer_container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  background-color: transparent;
+  height: 10vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+  background-color: red;
+}
+
+.nav_black {
+}
+.header_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between; /* Distributes space between header_left and header_right */
+/* align-items: center; /* Aligns items vertically in the center */
+/* padding: 10px 20px;
+} */
+body {
+  background: black;
+}
+*/ */ .header_outer_container {
+  width: 100%;
+  background-color: #141414; /* or any background color you prefer */
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  background-color: transparent;
+  height: 10vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+  background-color: red;
+}
+
+.header_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between; /* Distributes space between header_left and header_right */
+  align-items: center; /* Aligns items vertically in the center */
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  /* background-color: transparent; */
+  height: 10vh;
+  color: white;
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+  z-index: 1;
+  /* background-color: red; */
+}
+
+.header_left,
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_left ul,
+.header_right ul {
+  display: flex;
+  list-style: none; /* Removes bullet points from list items */
+  padding: 0;
+  margin: 0;
+}
+
+.header_left ul li,
+.header_right ul li {
+  margin-right: 20px; /* Adjust spacing between items */
+}
+
+.header_right ul li:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
