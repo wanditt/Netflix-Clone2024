@@ -50,7 +50,7 @@ body {
 }
 
 .header_container {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between; /* Distributes space between header_left and header_right */
   align-items: center; /* Aligns items vertically in the center */

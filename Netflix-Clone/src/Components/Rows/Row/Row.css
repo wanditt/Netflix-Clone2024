@@ -1,0 +1,38 @@
+.row_poster {
+  width: 100px;
+  object-fit: contain;
+  max-height: 100px;
+  transition: transform 450ms;
+  margin-right: 10px;
+}
+
+.row_posters {
+  display: flex;
+  overflow-y: hidden; /* Hides vertical scrollbar */
+  overflow-x: scroll; /* Enables horizontal scrolling */
+  padding: 20px;
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hides scrollbar in IE and old Edge */
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+.row_poster:hover {
+  transform: scale(1.08); /* Hover effect */
+}
+
+.row_posterLarge {
+  max-height: 250px;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.09); /* Slightly larger hover effect for large posters */
+}
+
+.row {
+  /* margin-top: 100px; */
+  margin-left: 20px;
+  color: white;
+}

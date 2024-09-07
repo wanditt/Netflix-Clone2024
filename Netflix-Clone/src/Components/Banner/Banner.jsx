@@ -10,7 +10,7 @@ const Banner = () => {
     (async () => {
       try {
         const request = await axios.get(requests.fetchNetflixOriginals);
-        console.log(request);
+        // console.log(request);
         const results = request.data.results || []; // Default to an empty array if results is undefined
 
         if (results.length > 0) {
@@ -30,7 +30,7 @@ const Banner = () => {
       style={{
         backgroundSize: "cover",
         backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
-        backgroundPosition: "center",
+        // backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
     >
